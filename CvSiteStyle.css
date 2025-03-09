@@ -1,0 +1,76 @@
+body
+{
+    font-family: 'Lato', sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1
+{
+    text-align: left;
+    color: #333;
+}
+
+h2
+{
+    color: #0056b3;
+    border-bottom: 2px solid #0056b3;
+    padding-bottom: 5px;
+}
+
+.section
+{
+    margin-bottom: 20px;
+}
+
+.skillsGrid
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill
+{
+    width: 50%;
+}
+
+.dots
+{
+    display: flex;
+    gap: 5px;
+}
+
+.dot
+{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #ccc;
+    display: inline-block;
+}
+
+.dot.active
+{
+    background: #0056b3;
+}
+
+.contact p
+{
+    margin: 5px 0;
+}
+
+.bottomPadding
+{
+    padding-bottom: 50px;
+}
